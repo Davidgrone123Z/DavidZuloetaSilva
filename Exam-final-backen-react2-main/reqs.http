@@ -1,0 +1,23 @@
+@server = https://turbo-space-doodle-9vgv45grqqvh7rjj-8082.app.github.dev
+
+###
+GET {{server}}/api/productos
+###
+POST {{server}}/api/productos
+Content-Type: application/json
+
+{"nombre": "Aceite" ,"precio": 6.30}
+
+
+###
+GET {{server}}/api/ventas
+
+###
+GET {{server}}/api/ventas/1
+###
+GET {{server}}/api/ventas/1/formacion
+###
+GET {{server}}/api/ventadetalles
+
+
+
